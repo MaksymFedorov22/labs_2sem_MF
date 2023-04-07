@@ -16,7 +16,6 @@ int main()
 
     printf("Enter %d element(s):\n", rows * cols);
 
-
     for (int i = 0; i < rows; i++) 
     {
         for (int j = 0; j < cols; j++) 
