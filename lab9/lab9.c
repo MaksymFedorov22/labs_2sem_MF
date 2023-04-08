@@ -36,7 +36,6 @@ int main()
             if (*(*(arr + i) + j) > max)
                 max = (*(*(arr + i) + j));
         }
-
     }
 
     printf("Minimum element is: %d\n", min);
@@ -50,5 +49,4 @@ int main()
     free(arr);
 
     return 0;
-
 }
